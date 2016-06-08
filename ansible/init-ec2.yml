@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  connection: local
+  remote_user: ubuntu
+  become: yes
+  gather_facts: no
+
+  roles:
+    - find-ec2
+    - provision-ec2      

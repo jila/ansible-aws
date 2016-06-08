@@ -1,0 +1,8 @@
+count: 1
+image: ami-0c95b86f
+instance_type: t2.micro
+group: sec-temp
+instance_tags: 
+  Name: cron
+
+key_name: awsmamamia
